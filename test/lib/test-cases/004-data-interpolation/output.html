@@ -1,0 +1,15 @@
+<h2 id="foo">Foo</h2>
+<p>Value of <code>foo</code> is <code>42</code>, as in 42</p>
+<h2 id="bar-baz">Bar Baz</h2>
+<p>Value of <code>bar.baz</code> is <code>hello</code></p>
+<h2 id="quux">Quux</h2>
+<p>Value of <code>${quux}</code> is <code>walrus</code></p>
+<h2 id="xyzzy">Xyzzy</h2>
+<p>Value of <code>${xyzzy}</code> is <code>strawberry fields</code>, but it won't appear in the code snippet below</p>
+<pre><code class="js language-js">console.log(`${xyzzy}`);</code></pre>
+<h2 id="foobarception">Foobarception</h2>
+<p>Sometimes your needs depend on some other thing you need:</p>
+<ul>
+<li><code>${bar.${foo}}</code> = <code>goodbye</code></li>
+<li><code>${bar[${foo}]}</code> = <code>goodbye</code></li>
+</ul>

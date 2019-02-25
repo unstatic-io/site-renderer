@@ -1,0 +1,25 @@
+{
+  "name": "@unstatic-io/site-renderer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --recursive"
+  },
+  "author": "",
+  "license": "MIT",
+  "_moduleAliases": {
+    "@unstatic-io/site-renderer": "src/"
+  },
+  "dependencies": {
+    "js-yaml": "3.12.1",
+    "lodash": "4.17.11",
+    "module-alias": "2.2.0",
+    "showdown": "1.9.0",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "6.0.1"
+  }
+}

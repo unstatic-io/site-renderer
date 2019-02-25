@@ -1,0 +1,9 @@
+{
+    "foo": 42,
+    "bar": {
+        "baz": "hello",
+        "42": "goodbye"
+    },
+    "quux": "walrus",
+    "xyzzy": "strawberry fields"
+}
